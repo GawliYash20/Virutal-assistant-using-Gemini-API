@@ -15,7 +15,7 @@ def speak(text):
 
 # Function to process commands using Generative AI
 def aiProcess(command):
-    API_KEY = "AIzaSyAgwDih4FTT0Pe5NjGb70GVIZ9d4la8tsQ"  # Replace with your API key
+    API_KEY = "API_KEY"  # Replace with your API key
 
     try:
         genai.configure(api_key=API_KEY)
